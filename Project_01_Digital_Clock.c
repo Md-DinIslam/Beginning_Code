@@ -36,7 +36,7 @@ int main ()
         printf("\n   %.2d : %.2d : %.2d",Hour,Minute,Second);
         if(Hour < 12 && Minute <= 59)
         {
-            printf("  PM ");
+            printf("  PM");
         }
         else 
         {
