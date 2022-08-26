@@ -7,7 +7,7 @@ int main ()
 {
     int Hour,Minute,Second;
     printf("Set Your Time:\n");
-    scanf("%d%d%d%d",&Hour,&Minute,&Second);
+    scanf("%d%d%d",&Hour,&Minute,&Second);
     if(Hour > 12 || Minute > 60 || Second > 60)
     {
         printf(" Error! ");
@@ -38,7 +38,7 @@ int main ()
         {
             printf("  PM");
         }
-        else 
+        else
         {
             printf("  AM");
         }
